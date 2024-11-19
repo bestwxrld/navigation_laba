@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, FlatList, RefreshControl, StyleSheet } from 'react-native';
-import ProgrammingCard from '../components/ProgrammingCard';
+import ProgrammingCard from '../ProgrammingCard';
 
 const programmingLanguages = [
   {
@@ -12,13 +12,13 @@ const programmingLanguages = [
   {
     id: 2,
     language: 'Python',
-    experience: 'нет',
+    experience: '3 года',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg',
   },
   {
     id: 3,
     language: 'Go',
-    experience: '6 месяцев',
+    experience: '1 год',
     logo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Go_Logo_Blue.svg',
   },
 ];
